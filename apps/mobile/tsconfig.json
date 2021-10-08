@@ -1,0 +1,9 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "@nx-expo-and-web/mylibrary": ["../../libs/mylibrary/src/index.ts"]
+    }
+  }
+}

@@ -37,3 +37,14 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+
+# Expo
+.expo/
+dist/
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+web-build/

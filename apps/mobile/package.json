@@ -1,0 +1,43 @@
+{
+  "name": "rn-test",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "../../node_modules/.bin/expo start",
+    "android": "../../node_modules/.bin/expo start --android",
+    "ios": "../../node_modules/.bin/expo start --ios",
+    "web": "../../node_modules/.bin/expo start --web",
+    "eject": "../../node_modules/.bin/expo eject",
+    "test": "../../node_modules/.bin/jest --config=jest.config.js --watchAll"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "*",
+    "@react-navigation/bottom-tabs": "*",
+    "@react-navigation/native": "*",
+    "@react-navigation/native-stack": "*",
+    "expo": "*",
+    "expo-asset": "*",
+    "expo-constants": "*",
+    "expo-font": "*",
+    "expo-linking": "*",
+    "expo-splash-screen": "*",
+    "expo-status-bar": "*",
+    "expo-web-browser": "*",
+    "react": "*",
+    "react-dom": "*",
+    "react-native": "*",
+    "react-native-safe-area-context": "*",
+    "react-native-screens": "*",
+    "react-native-web": "*"
+  },
+  "devDependencies": {
+    "@babel/core": "*",
+    "@types/jest": "*",
+    "@types/react": "*",
+    "@types/react-native": "*",
+    "@types/react-test-renderer": "*",
+    "jest-expo": "*",
+    "react-test-renderer": "*",
+    "typescript": "*"
+  }
+}
